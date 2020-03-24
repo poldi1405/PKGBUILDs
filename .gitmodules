@@ -1,0 +1,6 @@
+[submodule "rambox-pro-bin"]
+	path = rambox-pro-bin
+	url = ssh://aur@aur.archlinux.org/rambox-pro-bin.git
+[submodule "nyuu-bin"]
+	path = nyuu-bin
+	url = ssh://aur@aur.archlinux.org/nyuu-bin.git

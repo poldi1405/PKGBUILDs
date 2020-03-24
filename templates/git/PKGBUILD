@@ -1,0 +1,42 @@
+# Maintainer: Moritz Poldrack <moritz at poldrack dot dev>
+pkgname=NAME-git
+_pkgname=${pkgname%-git}
+pkgver=VERSION
+pkgrel=1
+pkgdesc=""
+arch=()
+url=""
+license=('')
+groups=()
+depends=()
+makedepends=('git')
+provides=("${_pkgname}")
+conflicts=("${_pkgname}")
+replaces=()
+backup=()
+options=()
+install=
+source=('$_pkname::git+https://github.com/user/repo.git')
+noextract=()
+md5sums=('SKIP')
+
+# Please refer to the 'USING VCS SOURCES' section of the PKGBUILD man page for
+# a description of each element in the source array.
+
+pkgver() {
+	cd "$srcdir/$_pkgname"
+
+	printf "%s" "$(git describe --long | sed 's/\([^-]*-\)g/r\1/;s/-/./g')"
+}
+
+prepare() {
+	cd "$srcdir/$_pkgname"
+}
+
+build() {
+	cd "$srcdir/$_pkgname"
+}
+
+package() {
+	cd "$srcdir/$_pkgname"
+}
