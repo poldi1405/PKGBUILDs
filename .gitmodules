@@ -4,3 +4,6 @@
 [submodule "nyuu-bin"]
 	path = nyuu-bin
 	url = ssh://aur@aur.archlinux.org/nyuu-bin.git
+[submodule "ttf-font-awesome-pro"]
+	path = ttf-font-awesome-pro
+	url = ssh://aur@aur.archlinux.org/ttf-font-awesome-pro.git
