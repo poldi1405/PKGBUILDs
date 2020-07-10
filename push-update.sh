@@ -37,6 +37,6 @@ git push
 
 echo "updating container-repository…"
 cd ..
-git add $PKNAME
+git add $PKGNAME
 git commit -m "updated $PKGNAME to $version"
 git push
