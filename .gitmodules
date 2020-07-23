@@ -7,3 +7,6 @@
 [submodule "ttf-font-awesome-pro"]
 	path = ttf-font-awesome-pro
 	url = ssh://aur@aur.archlinux.org/ttf-font-awesome-pro.git
+[submodule "bbcp-git"]
+	path = bbcp-git
+	url = ssh://aur@aur.archlinux.org/bbcp-git.git
