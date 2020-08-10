@@ -10,3 +10,6 @@
 [submodule "bbcp-git"]
 	path = bbcp-git
 	url = ssh://aur@aur.archlinux.org/bbcp-git.git
+[submodule "got"]
+	path = got
+	url = ssh://aur@aur.archlinux.org/got.git
