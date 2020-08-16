@@ -13,3 +13,6 @@
 [submodule "got"]
 	path = got
 	url = ssh://aur@aur.archlinux.org/got.git
+[submodule "got-git"]
+	path = got-git
+	url = ssh://aur@aur.archlinux.org/got-git.git

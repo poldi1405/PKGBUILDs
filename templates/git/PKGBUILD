@@ -16,7 +16,7 @@ replaces=()
 backup=()
 options=()
 install=
-source=('$_pkname::git+https://github.com/user/repo.git')
+source=('$_pkgname::git+https://github.com/user/repo.git')
 noextract=()
 md5sums=('SKIP')
 
