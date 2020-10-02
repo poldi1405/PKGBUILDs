@@ -33,7 +33,9 @@ read
 
 git add * .SRCINFO
 git commit -m "updated package to $version"
-git push
+git push origin HEAD:master
+git checkout master
+git pull
 
 echo "updating container-repository…"
 cd ..
