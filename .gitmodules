@@ -19,3 +19,6 @@
 [submodule "rambox-pro-bin-beta"]
 	path = rambox-pro-bin-beta
 	url = ssh://aur@aur.archlinux.org/rambox-pro-bin-beta.git
+[submodule "yambar"]
+	path = yambar
+	url = ssh://aur@aur.archlinux.org/yambar.git
