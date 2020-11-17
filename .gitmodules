@@ -22,3 +22,6 @@
 [submodule "yambar"]
 	path = yambar
 	url = ssh://aur@aur.archlinux.org/yambar.git
+[submodule "screego-server"]
+	path = screego-server
+	url = ssh://aur@aur.archlinux.org/screego-server.git
