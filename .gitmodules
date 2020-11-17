@@ -25,3 +25,6 @@
 [submodule "screego-server"]
 	path = screego-server
 	url = ssh://aur@aur.archlinux.org/screego-server.git
+[submodule "screego-server-bin"]
+	path = screego-server-bin
+	url = ssh://aur@aur.archlinux.org/screego-server-bin.git
